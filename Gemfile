@@ -15,6 +15,8 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'faker'
 gem 'will_paginate'
+gem 'carrierwave'
+gem 'mini_magick'
 gem 'bootstrap-will_paginate'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -68,6 +70,7 @@ end
 
 group :production do
   gem 'pg', '0.20.0'
+  gem 'fog'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
